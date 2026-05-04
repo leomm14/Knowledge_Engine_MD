@@ -98,3 +98,11 @@ swipl starwars.pl
 ?- planetas_empatados_especies(P, T).
 ?- planetas_maior_media_lifespan(P, T).
 ```
+
+### Fonte dos dados
+
+Os dados utilizados foram extraídos de um único dataset do universo Star Wars.
+
+Apesar de estarem organizados em arquivos separados (`characters`, `species` e `planets`), todos fazem parte da mesma base original e foram utilizados de forma integrada para enriquecer a modelagem e permitir consultas mais expressivas.
+
+Foram selecionados apenas 8 atributos relevantes, combinando variáveis qualitativas (nome, espécie, planeta, classificação) e quantitativas (população e expectativa de vida), atendendo ao requisito do projeto.
